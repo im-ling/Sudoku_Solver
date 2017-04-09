@@ -28,7 +28,6 @@ class ViewController: UIViewController {
                                   [0,3,6, 9,0,0, 0,0,0],
                                   [0,0,2, 3,0,1, 0,4,0]]
         
-//        let solver = .sharedSudokuSolver;
         let solver = DLSudokuSolver.sharedSudokuSolver
         
         solver.originMap = originMap	//1. give the map to the solver
